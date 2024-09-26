@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizeing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary: #ee66a6;
+}
+body {
+}
+
+.container {
+  position: relative;
+  height: 300px; /* for example */
+}
+
+.title {
+  color: var(--primary);
+}
+
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: -5px;
+  color: #f0a8d0;
+}
+
+img {
+  position: sticky;
+  top: 0;
+  width: 400px;
+  background-attachment: fixed;
+}
+
+.img1 {
+  margin-left: -130px;
+}
+
+.img2 {
+  top: -30px;
+}
+
+.img3 {
+  margin-left: -0px;
+}
+
+.herotext {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  color: white;
+  background-color: var(--primary);
+
+  background-attachment: fixed;
+  border-radius: 20px 20px 20px 20px;
+  justify-conten: center;
+  align-item: center;
+}
+
+.parallax {
+  width: 100%;
+  height: 115vh;
+}
+
+.btntext {
+  color: var(--primary);
+  margin-top: 10px;
+}
+
+.intro {
+  background-color: var(--primary);
+  z-index: 9999;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  padding-top: 10px;
+  margin-top: 170px;
+}
+
+.she-he {
+  height: 117vh;
+  background-color: white;
+  color: var(--primary);
+  z-index: 9999;
+  position: relative;
+}
+
+.table {
+  border-color: var(--primary);
+}
+
+.content1 {
+  background-color: var(--primary);
+  color: white;
+  z-index: 9999;
+  position: relative;
+  height: 110vh;
+}
+
+.footer {
+  background-color: white;
+  z-index: 9999;
+  position: relative;
+}
+
+.waveft {
+  z-index: 9999;
+  position: relative;
+}
+
+.color-pink {
+  color: var(--primary);
+}
+
+.color-pink-light {
+  color: #fea1bf;
+}
+
+.color-darkpink {
+  color: #fea1bf;
+}
+
+/* this card is inspired form this - https://georgefrancis.dev/ */
+
+/* card */
+.card {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ee66a6;
+  color: white;
+  border-radius: 8px;
+  position: sticky;
+  top: 380px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+.card__content {
+  margin: 5px;
+  justify-content: center;
+  align-item: center;
+  font-size: 15px;
+}
+
+/* akhir */
+
+/* card music */
+
+.card-container-music {
+  width: 100%;
+  background-color: #ffc6d3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #fea1bf;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.mute-button,
+.unmute-button {
+  background-color: #fea1bf;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.mute-button:hover,
+.unmute-button:hover {
+  background-color: rgb(247, 247, 247);
+  color: pink;
+}
+
+/* akhir */
+
+/* card kalender */
+
+.img {
+  border-radius: 30px;
+  width: 100%;
+  height: 42%;
+  background: linear-gradient(#ffcefe, #fdebed);
+  margin-bottom: 30px;
+}
+
+.cardc:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* akhir */
+
+/* card age */
+.carda {
+  width: 230px;
+  height: 100px;
+  margin-bottom: 100px;
+  transition: all 0.5s;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+    -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.carda:hover {
+  height: 180px;
+  background: linear-gradient(360deg, 60%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.carda .header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fea1bf;
+  margin-bottom: 16px;
+}
+
+.carda .header .img-box {
+  width: 50px;
+}
+
+.carda .header .title {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 4px 0 14px 0;
+  transition: all 0.5s;
+  color: #edededc5;
+}
+
+.carda:hover .header {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+}
+
+.carda:hover .carda .header .title {
+  padding: 0;
+}
+
+.carda .content {
+  display: block;
+  text-align: justify;
+  color: #fff;
+  margin: 0 18px;
+}
+
+.carda .content p {
+  transition: all 0.5s;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.carda .content a {
+  color: #1d8122;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.carda .content .btn-link:hover {
+  border-bottom: 1px solid #1d8122;
+}
+/* akhir */
+/* Hide the default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  height: 20px;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.4em;
+  width: 1.4em;
+  border: 2px solid pink;
+  border-radius: 1rem 0rem 1rem;
+  transform: rotate(45deg);
+  transition: all 0.5s ease-in-out;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  box-shadow: 0px 0px 40px 5px pink;
+  border-radius: 1rem 0rem 1rem;
+  background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 0.35em;
+  top: 0.2em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid pink;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(-5deg);
+  animation: upAnimate 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes upAnimate {
+  from {
+    transform: translate(-20px, -20px) rotate(-5deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0) rotate(-5deg);
+    opacity: 1;
+  }
+}
